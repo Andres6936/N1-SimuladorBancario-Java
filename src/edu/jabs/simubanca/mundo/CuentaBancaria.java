@@ -242,9 +242,7 @@ public class CuentaBancaria
     }
 
     /**
-     * Retorna el resultado de la extensión 1
-     *
-     * @return
+     * @return Retorna el resultado de la extensión 1
      */
     public String metodo1( )
     {
@@ -252,9 +250,7 @@ public class CuentaBancaria
     }
 
     /**
-     * Retorna el resultado de la extensión 2
-     *
-     * @return
+     * @return Retorna el resultado de la extensión 2
      */
     public String metodo2( )
     {
