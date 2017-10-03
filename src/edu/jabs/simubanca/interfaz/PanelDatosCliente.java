@@ -171,7 +171,7 @@ public class PanelDatosCliente extends JPanel implements ActionListener
      * Actualiza en la interfaz el campo de nombre del cliente <br>
      * <b>pre: </b>Se ha realizado algun cambio en el mundo <br>
      * <b>post: </b>Se muestra el nombre del cliente en el campo correspondiente <br>
-     * @param nombre
+     * @param nombre Nombre nuevo
      */
     public void actualizarNombre( String nombre )
     {
@@ -182,7 +182,7 @@ public class PanelDatosCliente extends JPanel implements ActionListener
      * Actualiza en la interfaz el campo de cedula del cliente <br>
      * <b>pre: </b>Se ha realizado algun cambio en el mundo <br>
      * <b>post: </b>Se muestra la cedula del cliente en el campo correspondiente <br>
-     * @param cedula
+     * @param cedula Cedula nueva
      */
     public void actualizarCedula( String cedula )
     {
@@ -192,7 +192,7 @@ public class PanelDatosCliente extends JPanel implements ActionListener
     /**
      * Actualiza en la interfaz el mes actual de la simuelacion <b>pre: </b>Se ha realizado algun cambio en el mundo <br>
      * <b>post: </b>Se muestra el nuevo mes actual de la simulacion <br>
-     * @param mes
+     * @param mes Mes nuevo
      */
     public void actualizarMes( int mes )
     {
